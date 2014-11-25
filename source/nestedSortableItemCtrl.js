@@ -13,7 +13,7 @@
             $scope.sortableItemElement = element;
             $scope.initSubItemElement(element);
             $scope.items.splice($scope.$index, 0, $scope);
-            element.attr('sortable-elment-type', 'item');
+            element.attr('sortable-element-type', 'item');
           };
 
           $scope.removeItem = function() {
