@@ -16,3 +16,4 @@ node_modules
 # IDE files #
 .idea
 *.iml
+demo/docs/
