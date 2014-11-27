@@ -247,7 +247,7 @@
                   dragElm.show();
                 }
 
-                if (targetElm.attr('sortable-element-type') != 'item' && targetElm.attr('sortable-element-type') != 'drop' && targetElm.attr('sortable-element-type') != 'handle') {
+                if (targetElm.attr('sortable-element-type') != 'item' && targetElm.attr('sortable-element-type') != 'drop-area' && targetElm.attr('sortable-element-type') != 'handle') {
                   return;
                 }
 
