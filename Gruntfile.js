@@ -95,7 +95,7 @@ module.exports = function(grunt) {
           '<%= cfg.srcDir %>/uiNestedSortable.js',
           '<%= cfg.srcDir %>/uiNestedSortableHandle.js',
           '<%= cfg.srcDir %>/uiNestedSortableItem.js',
-		  '<%= cfg.srcDir %>/uiNestedSortableDropArea.js'
+          '<%= cfg.srcDir %>/uiNestedSortableDropArea.js'
         ],
         dest: '<%= cfg.buildDir %>/angular-nested-sortable.js'
       }
